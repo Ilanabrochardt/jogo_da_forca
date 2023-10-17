@@ -3,7 +3,7 @@ import os
 
 def escolher_palavra():
     palavras = ["casa", "flores", "computador", "jogo", "desenvolvedor", "vontade", "primavera", "pastel", "feijoada", "felicidade"]
-    return random.choice(palavras)  # Retorna uma palavra aleatória da lista.
+    return random.choice(palavras)
 
 def jogoDaForca():
     jogarNovamente = "s"
